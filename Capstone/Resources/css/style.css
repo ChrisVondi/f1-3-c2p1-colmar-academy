@@ -1,0 +1,663 @@
+/* latin */
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v12/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Montserrat SemiBold'), local('Montserrat-SemiBold'), url(https://fonts.gstatic.com/s/montserrat/v12/JTURjIg1_i6t8kCHKm45_bZF3gnD_vx3rCs.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Montserrat Bold'), local('Montserrat-Bold'), url(https://fonts.gstatic.com/s/montserrat/v12/JTURjIg1_i6t8kCHKm45_dJE3gnD_vx3rCs.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+
+@font-face {
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Cabin Medium'), local('Cabin-Medium'), url(https://fonts.gstatic.com/s/cabin/v12/u-480qWljRw-PdfD3OhluylEeQ5J.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+
+@font-face {
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Cabin SemiBold'), local('Cabin-SemiBold'), url(https://fonts.gstatic.com/s/cabin/v12/u-480qWljRw-Pdfv2-hluylEeQ5J.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+
+@font-face {
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Cabin Bold'), local('Cabin-Bold'), url(https://fonts.gstatic.com/s/cabin/v12/u-480qWljRw-PdeL2uhluylEeQ5J.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+header {
+  width: 100%;
+  height: 64px;
+
+}
+.web-header{
+  display: show;
+  display: flex;
+  width: 100%;
+  height: 64px;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.mobile-header{
+  display: none;
+  width: 100%;
+}
+
+.mobile-header img{
+  padding-top: 13px;
+  height: 40px;
+
+}
+
+header img {
+  padding-left: 24px;
+}
+
+.logo {
+  display: flex;
+  font-size: 22px;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.logo h1 {
+  padding-top: 10px;
+}
+
+.logo img {
+  height: 38px;
+  padding-top: 10px;
+}
+
+.logo-grey {
+  font-weight: 400;
+  color: grey;
+}
+
+nav a {
+  padding-right: 16px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+nav {
+  padding-right: 24px;
+}
+
+/*banner*/
+
+.banner {
+  display: flex;
+  flex-direction: row;
+  background-color: hsl(0, 0%, 81%);
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 24px;
+}
+
+.banner-mobile{
+    display: none;
+    flex-direction: row;
+    background-color: hsl(0, 0%, 81%);
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.pic {
+  width: 60%;
+}
+
+.pic img {
+  width: 100%;
+}
+
+.column-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 150px;
+  font-family: 'cabin';
+  padding-left: 24px;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.column-one-mobile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 150px;
+  font-family: 'cabin';
+  padding-left: 24px;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.column-one h2 {
+  font-size: 40px;
+  padding-bottom: 15px;
+  color: hsl(0, 0%, 24%);
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.column-one-mobile h2 {
+  font-size: 40px;
+  padding-bottom: 15px;
+  color: hsl(0, 0%, 24%);
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.start {
+  display: flex;
+  justify-content: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: hsl(0, 0%, 20%);
+  font-size: 18px;
+}
+
+.start a {
+  color: hsl(0, 0%, 96%);
+  text-decoration: none;
+}
+
+.start-mobile {
+  display: flex;
+  justify-content: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: hsl(0, 0%, 20%);
+  font-size: 18px;
+}
+
+.start-mobile a {
+  color: hsl(0, 0%, 96%);
+  text-decoration: none;
+}
+
+/* Information*/
+
+.information {
+  display: flex;
+  background-color: hsl(0, 0%, 100%);
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 24px;
+  width: 100%;
+}
+
+.pic-2 {
+  width: 60%;
+  padding-right: 24px;
+}
+
+.pic-2 img {
+  width: 100%;
+}
+
+.pic-2 h3 {
+  font-family: 'cabin';
+  font-size: 30px;
+  color: hsl(0, 0%, 24%);
+  padding-top: 32px;
+  padding-bottom: 24px;
+  font-weight: bold;
+}
+
+.pic-2 p {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.author p {
+  padding-top: 15px;
+  font-size: 12px;
+  font-weight: 600;
+  color: hsl(0, 0%, 24%);
+}
+
+/*side info portion*/
+
+.side-information {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+
+}
+
+.info-boxes {
+  display: flex;
+  padding-left: 16px;
+}
+
+.info-boxes-2{
+  display: flex;
+  background-color: hsl(0, 0%, 81%);
+  padding-left: 16px;
+  padding-top: 16px;
+}
+
+.side-information img {
+  width: 35%;
+  height: auto;
+  padding-bottom: 32px;
+}
+
+.side-info-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 65%;
+  line-height: 29px;
+  padding-left: 14px;
+}
+
+.side-info-text-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 65%;
+  line-height: 29px;
+  padding-left: 14px;
+}
+
+.side-information h3 {
+  font-family: 'cabin';
+  font-size: 21px;
+}
+
+.side-information p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+.side-information a {
+  text-decoration: none;
+  color: rgb(15, 197, 240);
+}
+
+/*learning section*/
+.learning-section{
+  width: 100%;
+  background-color: hsl(0, 0%, 81%);
+}
+
+.learning-title{
+  text-align: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-family: 'cabin';
+  font-size: 30px;
+  font-weight: 700;
+}
+.all-courses{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.left-course{
+  width: 25%;
+  height: auto;
+  padding-left: 72px;
+  padding-right: 32px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.course{
+  width: 25%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.right-course{
+  width: 25%;
+  height: auto;
+  padding-right: 72px;
+  padding-left: 32px;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-course{
+  background-color: white;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-bottom: 24px;
+  margin-bottom: 32px;
+  height: 100px;
+}
+
+.text-course h2{
+  font-family: 'cabin';
+  font-size: 20px;
+  color: hsl(0, 0%, 24%);
+  font-weight: bold;
+}
+
+.text-course h3{
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.text-course p{
+  line-height: 20px;
+}
+
+/*ASSISTANCE HERE*/
+.all-courses-mobile{
+  display: none;
+
+}
+
+
+/*Thesis section*/
+.thesis-title{
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-family: 'cabin';
+  font-size: 30px;
+  font-weight: 700;
+  color: hsl(0, 0%, 24%);
+  text-align: center;
+
+}
+
+.thesis-section{
+  width: 100%;
+  display: flex;
+  padding-bottom: 32px;
+
+}
+
+.vid-side{
+  padding-left: 24px;
+  width: 60%;
+  padding-right: 24px;
+}
+
+.vid-side video{
+  width: 100%;
+}
+
+
+.vid-side h3{
+  font-family: 'cabin';
+  font-size: 20px;
+  color: hsl(0, 0%, 24%);
+  font-weight: bold;
+  padding-top: 24px;
+  padding-bottom: 8px;
+}
+
+.thesis-side{
+display: flex;
+flex-direction: column;
+width: 40%;
+}
+
+.thesis-side img{
+  width: 35%;
+  height: auto;
+  padding-right: 16px;
+
+}
+
+.thesis-info-boxes2{
+display: flex;
+padding-left: 16px;
+padding-top: 16px;
+padding-bottom: 16px;
+background-color: hsl(0, 0%, 81%);
+}
+
+.thesis-info-boxes{
+display: flex;
+padding-left: 16px;
+padding-top: 16px;
+padding-bottom: 16px;
+
+}
+
+.thesis-info-boxes2 h3{
+  font-family: 'cabin';
+  font-size: 20px;
+  font-weight: 700;
+  color: hsl(0, 0%, 24%);
+  padding-bottom: 10px;
+}
+
+.thesis-info-boxes h3{
+  font-family: 'cabin';
+  font-size: 20px;
+  font-weight: 700;
+  color: hsl(0, 0%, 24%);
+  padding-bottom: 10px;
+
+}
+
+.thesis-side-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 65%;
+  line-height: 22px;
+  font-family: 'cabin';
+  color: hsl(0, 0%, 24%);
+  font-size: 0.9rem;
+}
+
+/*footer*/
+footer{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 24px;
+  padding-top: 16px;
+  font-size: 0.8rem;
+}
+
+footer a{
+  text-decoration: none;
+  padding-right: 10px;
+}
+
+@media screen and (max-width: 600px) {
+
+  *{
+    width: 100%;
+  }
+/*header*/
+  .web-header{
+    display: none;
+  }
+
+  .mobile-header{
+    width: 100%;
+    display: show;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+  }
+
+/*banner*/
+.banner {
+  display: none;
+}
+
+.banner-mobile{
+display: show;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 32px;
+}
+
+.column-one-mobile{
+  display: show;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 32px;
+  font-family: 'cabin';
+  padding-left: 16px;
+  font-size: 22px;
+  line-height: 30px;
+  padding-top: 32px;
+}
+  .pic{
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .column-one{
+    display: none;
+  }
+
+  .start-mobile{
+  width: 90%;
+  text-align: center;
+  background-color: hsl(0, 0%, 60%);
+  padding-right: 18px;
+}
+
+/*Information*/
+.pic-2{
+  display: none;
+}
+
+.side-information{
+  width: 100%;
+}
+
+.info-boxes{
+  flex-direction: column;
+}
+
+.side-information img{
+  width: 80%;
+  align-items: center;
+
+}
+.info-boxes-2{
+  background-color: inherit;
+  flex-direction: column;
+}
+
+.side-info-text{
+  padding-bottom: 64px;
+}
+
+.side-info-text-2{
+  padding-bottom: 32px;
+}
+
+
+
+/*courses*/
+
+.learning-section{
+  width: 100%;
+  background-color: hsl(0, 0%, 100%)
+}
+
+.all-courses{
+  display: none;
+}
+
+.all-courses-mobile{
+  display: show;
+  display: flex;
+  justify-content: center;
+  background-color: hsl(0, 0%, 81%);
+  font-size: 24px;
+  font-family: 'cabin';
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-bottom: 24px;
+  width: 90%;
+  border: 15px solid white;
+}
+
+.all-courses-mobile a{
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-bottom: 24px;
+  text-decoration: none;
+  color: hsl(0, 0%, 24%);
+  margin-bottom: 8px;
+  width: 100%;
+}
+/*thesis*/
+
+.thesis-side{
+  display: none;
+}
+
+.vid-side{
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 24px;
+}
+
+.vid-side h3{
+  display: none;
+}
+
+.vid-side p{
+  display: none;
+}
+footer{
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+}
